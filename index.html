@@ -3,7 +3,8 @@
 <body>
 <h1>Hello World</h1>
 <p>20 tiles.</p>
-<script> 
+
+ <script> 
   function handle(){ 
    inbox_settings = ["Monomer", "Origin"] 
    frame_id = "1" 
@@ -24,6 +25,31 @@
  </script> 
 <iframe width="99%" height="500" src="https://sulcgroup.github.io/oxdna-viewer/" id="oxview-frame-1" onload="handle()">
  </iframe>
+  
+  
 <p>1 tiles poli-U.</p>
+
+<script> 
+  function handle(){ 
+   inbox_settings = ["Monomer", "Origin"] 
+   frame_id = "1" 
+   let t_files = ["./pdb/tile_poly_U.pdb"]; 
+   let t_blobs = [] 
+   for (let i = 0; i < t_files.length; i++){ 
+    let f = new XMLHttpRequest(); 
+    f.open("GET", t_files[i], false); 
+    f.onreadystatechange = function () { 
+     t_blobs.push(new Blob([f.responseText], {type : 'text/plain'})); 
+    } 
+    f.send(null) 
+   } 
+   let t_ext = ["pdb"]; 
+   const frame = document.getElementById('oxview-frame-1'); 
+   frame.contentWindow.postMessage({message : 'iframe_drop',files: t_blobs, ext: t_ext, inbox_settings : inbox_settings}, "https://sulcgroup.github.io/oxdna-viewer/"); 
+  } 
+ </script> 
+<iframe width="99%" height="500" src="https://sulcgroup.github.io/oxdna-viewer/" id="oxview-frame-1" onload="handle()">
+ </iframe>
+
  </body>
 </html>
