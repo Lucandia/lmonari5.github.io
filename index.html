@@ -11,7 +11,7 @@
   function handle1(){ 
    inbox_settings = ["Monomer", "Origin"] 
    frame_id = "1" 
-   let t_files = ["./data/filam/tile.pdb"]; 
+   let t_files = ["./data/tile.pdb"]; 
    let t_blobs = [] 
    for (let i = 0; i < t_files.length; i++){ 
     let f = new XMLHttpRequest(); 
@@ -26,7 +26,7 @@
    frame.contentWindow.postMessage({message : 'iframe_drop',files: t_blobs, ext: t_ext, inbox_settings : inbox_settings}, "https://sulcgroup.github.io/oxdna-viewer/"); 
   } 
  </script> 
-<iframe width="99%" height="500" src="https://sulcgroup.github.io/oxdna-viewer/" id="oxview-frame-1" onload="handle1()">
+<iframe width="80%" height="500" src="https://sulcgroup.github.io/oxdna-viewer/" id="oxview-frame-1" onload="handle1()">
  </iframe>
  
  <p>Base tile with ispinach</p>
@@ -35,7 +35,7 @@
   function handle2(){ 
    inbox_settings = ["Monomer", "Origin"] 
    frame_id = "2" 
-   let t_files = ["./data/filam/tile_ispinach.pdb"]; 
+   let t_files = ["./data/tile_ispinach.pdb"]; 
    let t_blobs = [] 
    for (let i = 0; i < t_files.length; i++){ 
     let f = new XMLHttpRequest(); 
@@ -50,7 +50,7 @@
    frame.contentWindow.postMessage({message : 'iframe_drop',files: t_blobs, ext: t_ext, inbox_settings : inbox_settings}, "https://sulcgroup.github.io/oxdna-viewer/"); 
   } 
  </script> 
-<iframe width="99%" height="500" src="https://sulcgroup.github.io/oxdna-viewer/" id="oxview-frame-2" onload="handle2()">
+<iframe width="80%" height="500" src="https://sulcgroup.github.io/oxdna-viewer/" id="oxview-frame-2" onload="handle2()">
  </iframe>
  
 <p>20 tiles filament relaxation</p>
@@ -59,7 +59,7 @@
   function handle3(){ 
    inbox_settings = ["Monomer", "Origin"] 
    frame_id = "3" 
-   let t_files = ["./data/filam/tiles_20.top", "./data/filam/tiles_20.dat"]; 
+   let t_files = ["./data/tiles_20.top", "./data/tiles_20.dat"]; 
    let t_blobs = [] 
    for (let i = 0; i < t_files.length; i++){ 
     let f = new XMLHttpRequest(); 
@@ -74,7 +74,7 @@
    frame.contentWindow.postMessage({message : 'iframe_drop',files: t_blobs, ext: t_ext, inbox_settings : inbox_settings}, "https://sulcgroup.github.io/oxdna-viewer/"); 
   } 
  </script> 
-<iframe width="99%" height="500" src="https://sulcgroup.github.io/oxdna-viewer/" id="oxview-frame-3" onload="handle3()">
+<iframe width="80%" height="500" src="https://sulcgroup.github.io/oxdna-viewer/" id="oxview-frame-3" onload="handle3()">
  </iframe>
 
  
@@ -87,7 +87,7 @@
   function handle4(){ 
    inbox_settings = ["Monomer", "Origin"] 
    frame_id = "4" 
-   let t_files = ["./data/nanop/6H_ispinach.pdb"]; 
+   let t_files = ["./data/6H_ispinach.pdb"]; 
    let t_blobs = [] 
    for (let i = 0; i < t_files.length; i++){ 
     let f = new XMLHttpRequest(); 
@@ -102,7 +102,7 @@
    frame.contentWindow.postMessage({message : 'iframe_drop',files: t_blobs, ext: t_ext, inbox_settings : inbox_settings}, "https://sulcgroup.github.io/oxdna-viewer/"); 
   } 
  </script> 
-<iframe width="50%" height="500" src="https://sulcgroup.github.io/oxdna-viewer/" id="oxview-frame-4" onload="handle4()">
+<iframe width="80%" height="500" src="https://sulcgroup.github.io/oxdna-viewer/" id="oxview-frame-4" onload="handle4()">
  </iframe>
  
 <p>6H zip nanotube with Ispinach</p>
@@ -111,7 +111,7 @@
   function handle5(){ 
    inbox_settings = ["Monomer", "Origin"] 
    frame_id = "5" 
-   let t_files = ["./data/nanop/6H_zip_ispinach.pdb"]; 
+   let t_files = ["./data/6H_zip_ispinach.pdb"]; 
    let t_blobs = [] 
    for (let i = 0; i < t_files.length; i++){ 
     let f = new XMLHttpRequest(); 
@@ -126,7 +126,7 @@
    frame.contentWindow.postMessage({message : 'iframe_drop',files: t_blobs, ext: t_ext, inbox_settings : inbox_settings}, "https://sulcgroup.github.io/oxdna-viewer/"); 
   } 
  </script> 
-<iframe width="99%" height="500" src="https://sulcgroup.github.io/oxdna-viewer/" id="oxview-frame-5" onload="handle5()">
+<iframe width="80%" height="500" src="https://sulcgroup.github.io/oxdna-viewer/" id="oxview-frame-5" onload="handle5()">
  </iframe>
  
 <p>8H nanotube</p>
@@ -135,7 +135,7 @@
   function handle6(){ 
    inbox_settings = ["Monomer", "Origin"] 
    frame_id = "6" 
-   let t_files = ["./data/nanop/8H.pdb"]; 
+   let t_files = ["./data/8H.pdb"]; 
    let t_blobs = [] 
    for (let i = 0; i < t_files.length; i++){ 
     let f = new XMLHttpRequest(); 
@@ -150,7 +150,7 @@
    frame.contentWindow.postMessage({message : 'iframe_drop',files: t_blobs, ext: t_ext, inbox_settings : inbox_settings}, "https://sulcgroup.github.io/oxdna-viewer/"); 
   } 
  </script> 
-<iframe width="99%" height="500" src="https://sulcgroup.github.io/oxdna-viewer/" id="oxview-frame-6" onload="handle6()">
+<iframe width="80%" height="500" src="https://sulcgroup.github.io/oxdna-viewer/" id="oxview-frame-6" onload="handle6()">
  </iframe>
  
 <p>8H nanotube after OxDNA relaxation</p>
@@ -159,7 +159,7 @@
   function handle7(){ 
    inbox_settings = ["Monomer", "Origin"] 
    frame_id = "7" 
-   let t_files = ["./data/nanop/8H.top", "./data/nanop/8H.dat"]; 
+   let t_files = ["./data/8H.top", "./data/8H.dat"]; 
    let t_blobs = [] 
    for (let i = 0; i < t_files.length; i++){ 
     let f = new XMLHttpRequest(); 
@@ -174,7 +174,7 @@
    frame.contentWindow.postMessage({message : 'iframe_drop',files: t_blobs, ext: t_ext, inbox_settings : inbox_settings}, "https://sulcgroup.github.io/oxdna-viewer/"); 
   } 
  </script> 
-<iframe width="99%" height="500" src="https://sulcgroup.github.io/oxdna-viewer/" id="oxview-frame-7" onload="handle7()">
+<iframe width="80%" height="500" src="https://sulcgroup.github.io/oxdna-viewer/" id="oxview-frame-7" onload="handle7()">
  </iframe>
  
  <p>8H zip nanotube</p>
@@ -183,7 +183,7 @@
   function handle8(){ 
    inbox_settings = ["Monomer", "Origin"] 
    frame_id = "8" 
-   let t_files = ["./data/nanop/8H_zip.pdb"]; 
+   let t_files = ["./data/8H_zip.pdb"]; 
    let t_blobs = [] 
    for (let i = 0; i < t_files.length; i++){ 
     let f = new XMLHttpRequest(); 
@@ -198,7 +198,7 @@
    frame.contentWindow.postMessage({message : 'iframe_drop',files: t_blobs, ext: t_ext, inbox_settings : inbox_settings}, "https://sulcgroup.github.io/oxdna-viewer/"); 
   } 
  </script> 
-<iframe width="99%" height="500" src="https://sulcgroup.github.io/oxdna-viewer/" id="oxview-frame-8" onload="handle8()">
+<iframe width="80%" height="500" src="https://sulcgroup.github.io/oxdna-viewer/" id="oxview-frame-8" onload="handle8()">
  </iframe>
  
 <p>8H zip nanotube after OxDNA relaxation</p>
@@ -207,7 +207,7 @@
   function handle9(){ 
    inbox_settings = ["Monomer", "Origin"] 
    frame_id = "9" 
-   let t_files = ["./data/nanop/8H_zip.top", "./data/nanop/8H_zip.dat"]; 
+   let t_files = ["./data/8H_zip.top", "./data/8H_zip.dat"]; 
    let t_blobs = [] 
    for (let i = 0; i < t_files.length; i++){ 
     let f = new XMLHttpRequest(); 
@@ -222,7 +222,7 @@
    frame.contentWindow.postMessage({message : 'iframe_drop',files: t_blobs, ext: t_ext, inbox_settings : inbox_settings}, "https://sulcgroup.github.io/oxdna-viewer/"); 
   } 
  </script> 
-<iframe width="99%" height="500" src="https://sulcgroup.github.io/oxdna-viewer/" id="oxview-frame-9" onload="handle9()">
+<iframe width="80%" height="500" src="https://sulcgroup.github.io/oxdna-viewer/" id="oxview-frame-9" onload="handle9()">
  </iframe>
  
  <p>8H zip nanotube with Kissing Loops for RNA9</p>
@@ -231,7 +231,7 @@
   function handle10(){ 
    inbox_settings = ["Monomer", "Origin"] 
    frame_id = "10" 
-   let t_files = ["./data/nanop/8H.pdb"]; 
+   let t_files = ["./data/8H.pdb"]; 
    let t_blobs = [] 
    for (let i = 0; i < t_files.length; i++){ 
     let f = new XMLHttpRequest(); 
@@ -246,7 +246,7 @@
    frame.contentWindow.postMessage({message : 'iframe_drop',files: t_blobs, ext: t_ext, inbox_settings : inbox_settings}, "https://sulcgroup.github.io/oxdna-viewer/"); 
   } 
  </script> 
-<iframe width="99%" height="500" src="https://sulcgroup.github.io/oxdna-viewer/" id="oxview-frame-10" onload="handle10()">
+<iframe width="80%" height="500" src="https://sulcgroup.github.io/oxdna-viewer/" id="oxview-frame-10" onload="handle10()">
  </iframe>
  
 <p>8H zip nanotube with Kissing Loops for RNA9 after OxDNA relaxation</p>
@@ -255,7 +255,7 @@
   function handle11(){ 
    inbox_settings = ["Monomer", "Origin"] 
    frame_id = "11" 
-   let t_files = ["./data/nanop/8H_zip_KL.top", "./data/nanop/8H_zip_KL.dat"]; 
+   let t_files = ["./data/8H_zip_KL.top", "./data/8H_zip_KL.dat"]; 
    let t_blobs = [] 
    for (let i = 0; i < t_files.length; i++){ 
     let f = new XMLHttpRequest(); 
@@ -270,7 +270,7 @@
    frame.contentWindow.postMessage({message : 'iframe_drop',files: t_blobs, ext: t_ext, inbox_settings : inbox_settings}, "https://sulcgroup.github.io/oxdna-viewer/"); 
   } 
  </script> 
-<iframe width="99%" height="500" src="https://sulcgroup.github.io/oxdna-viewer/" id="oxview-frame-11" onload="handle11()">
+<iframe width="80%" height="500" src="https://sulcgroup.github.io/oxdna-viewer/" id="oxview-frame-11" onload="handle11()">
  </iframe>
  
  </body>
