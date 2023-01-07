@@ -1,12 +1,32 @@
 <!DOCTYPE html>
 <html>
+
+  <script>
+    var iframe1=document.getElementById("oxview-frame-1");
+    var iframe2=document.getElementById("oxview-frame-2");
+    var iframe3=document.getElementById("oxview-frame-3");
+    var iframe4=document.getElementById("oxview-frame-4");
+    var iframe5=document.getElementById("oxview-frame-5");
+    var iframe6=document.getElementById("oxview-frame-6");
+    var iframe7=document.getElementById("oxview-frame-7");
+    var iframe8=document.getElementById("oxview-frame-8");
+    var iframe9=document.getElementById("oxview-frame-9");
+    var iframe10=document.getElementById("oxview-frame-10");
+    var iframe11=document.getElementById("oxview-frame-11");
+    function b1() {
+    iframe1.onload = "handle1()";
+    }
+    function b2() {
+    iframe2.onload = "handle2()";
+    }
+    </script>
+
 <body>
 <h1>Luca Monari's report supporting info</h1>
  
 <h2>Tiles project</h2>
  
 <p>Base tile</p>
-
 <script> 
   function handle1(){ 
    inbox_settings = ["Monomer", "Origin"] 
@@ -26,8 +46,9 @@
    frame.contentWindow.postMessage({message : 'iframe_drop',files: t_blobs, ext: t_ext, inbox_settings : inbox_settings}, "https://sulcgroup.github.io/oxdna-viewer/"); 
   } 
  </script> 
-<iframe width="80%" height="500" src="https://sulcgroup.github.io/oxdna-viewer/" id="oxview-frame-1" onload="handle1()">
- </iframe>
+<button id="b1" onClick="b1()"> button 1</button>
+  <div><iframe width="80%" height="500" src="https://sulcgroup.github.io/oxdna-viewer/" id="oxview-frame-1" onload="handle1()">
+  </iframe></div>
  
  <p>Base tile with ispinach</p>
 
