@@ -61,7 +61,6 @@ $(function(){
       } else{ $('#iframeHolder11').html('') }
     }); 
 });
-
 </script>
 
 <body>
@@ -71,9 +70,9 @@ $(function(){
   You can render up to 8 RNA origami at the same time.
 </p>
 
-<h2>Tiles project</h2>
+<h2>Tiles structures</h2>
  
-<p>Base tile</p>
+<p>Base tile (ROAD's output)</p>
 
 <script> 
   function handle1(){ 
@@ -97,7 +96,7 @@ $(function(){
 <button id="button1">Render/Hide</button>
 <div id="iframeHolder1"></div>
  
- <p>Base tile with ispinach</p>
+<p>Base tile with ispinach (ROAD's output)</p>
 
 <script> 
   function handle2(){ 
@@ -147,9 +146,9 @@ $(function(){
 
  
  
- <h2>Nanopore project</h2>
+ <h2>Nanopore structures</h2>
 
- <p>6H nanotube with Ispinach</p>
+ <p>6H nanotube with Ispinach (ROAD's output)</p>
 
 <script> 
   function handle4(){ 
@@ -173,7 +172,7 @@ $(function(){
 <button id="button4">Render/Hide</button>
 <div id="iframeHolder4"></div>
  
-<p>6H zip nanotube with Ispinach</p>
+<p>6H zip nanotube with Ispinach (ROAD's output)</p>
 
 <script> 
   function handle5(){ 
@@ -197,7 +196,7 @@ $(function(){
 <button id="button5">Render/Hide</button>
 <div id="iframeHolder5"></div>
  
-<p>8H nanotube</p>
+<p>8H nanotube (ROAD's output)</p>
 
  <script> 
   function handle6(){ 
@@ -245,7 +244,7 @@ $(function(){
 <button id="button7">Render/Hide</button>
 <div id="iframeHolder7"></div>
  
- <p>8H zip nanotube</p>
+ <p>8H zip nanotube (ROAD's output)</p>
 
  <script> 
   function handle8(){ 
@@ -293,7 +292,7 @@ $(function(){
 <button id="button9">Render/Hide</button>
 <div id="iframeHolder9"></div>
  
- <p>8H zip nanotube with Kissing Loops for RNA9</p>
+ <p>8H zip nanotube with Kissing Loops for RNA9 (ROAD's output)</p>
 
  <script> 
   function handle10(){ 
@@ -340,6 +339,29 @@ $(function(){
  </script> 
 <button id="button11">Render/Hide</button>
 <div id="iframeHolder11"></div>
- 
+
+<h2> ROAD input design</h2>
+
+<p>Base tile</p>
+<div><iframe src="file:./data/text_input/tile.txt" width=80% height=400> </iframe></div>
+
+<p>Base tile with ispinach</p>
+<div><iframe src="file:./data/text_input/tile_ispinach.txt" width=80% height=400> </iframe> </div>
+
+<p>6H nanotube with Ispinach</p>
+<div><iframe src="file:./data/text_input/6H.txt" width=80% height=500> </iframe> </div>
+
+<p>6H zip nanotube with Ispinach</p>
+<div><iframe src="file:./data/text_input/6H_zip.txt" width=80% height=700> </iframe> </div>
+
+<p>8H nanotube</p>
+<div><iframe src="file:./data/text_input/8H.txt" width=2700 height=1000 style="-moz-transform-origin: 0 0; -webkit-transform-origin: 0 0;;-webkit-transform:scale(0.5); -moz-transform-scale(0.5);"> </iframe> </div>
+
+<p>8H zip nanotube</p>
+<div><iframe src="file:./data/text_input/8H_zip.txt" width=2700 height=1000 style="-moz-transform-origin: 0 0; -webkit-transform-origin: 0 0;;-webkit-transform:scale(0.5); -moz-transform-scale(0.5);"> </iframe> </div>
+
+<p>8H zip nanotube with Kissing Loops for RNA9</p>
+<div><iframe src="file:./data/text_input/8H_zip_KL9.txt" width=2700 height=1000 style="-moz-transform-origin: 0 0; -webkit-transform-origin: 0 0;;-webkit-transform:scale(0.5); -moz-transform-scale(0.5);"> </iframe> </div>
+
  </body>
 </html>
