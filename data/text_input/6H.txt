@@ -1,0 +1,31 @@
+>6H
+                                                                       ╭──AA────╮                                          
+                                         ╭UUNNNKNNN──SSS──NNNKNNNN─NNA╮╰NNNNNN─╮╰NN─NNNKNNNNN──SSS──NNNKNNNGC╮                                                                         
+                                         │  ┊┊┊┊┊┊┊  ┊┊┊  ┊┊┊┊┊┊┊┊ ┊┊ │ ****** │ ┊┊ ┊┊┊┊┊┊┊┊┊  ┊┊┊  ┊┊┊┊┊┊┊  │                    
+                                         ╰CGNNNKNNN╮╭SSS──NNNKNNNN─NN╮╰─NNNNNN╮╰ANN─NNNKNNNNN╮╭SSS──NNNKNNNUU╯                    
+                                                   ^╰────╮           ╰────AA──╯              ^╰────╮                              
+                                                   ╰────╮^             ╭──AA────╮            ╰────╮^              
+                                         ╭UUNNNKNNN──SSS╯╰NNNKNNNN─NNA╮╰NNNNNN─╮╰NN─NNNNNNNNN──SSS╯╰NNNKNNNGC╮                    
+                                         │  ┊┊┊┊┊┊┊  ┊┊┊  ┊┊┊┊┊┊┊┊ ┊┊ │ ****** │ ┊┊ ┊┊┊┊┊┊┊┊┊  ┊┊┊  ┊┊┊┊┊┊┊  │                    
+                                         ╰CGNNNKNNN╮╭SSS──NNNKNNNN─NN╮╰─NNNNNN╮╰ANN─NNNNNNNNN╮╭SSS──NNNKNNNUU╯                    
+                                                   ^╰────╮           ╰────AA──╯              ^╰────╮                              
+                                                   ╰────╮^             ╭──AA────╮            ╰────╮^                              
+                                         ╭UUNNNKNNN──SSS╯╰NNNKNNNN─NNA╮╰NNNNNN─╮╰NN─NNNKNNNNN──SSS╯╰NNNKNNNGC╮                                                                         
+                                         │  ┊┊┊┊┊┊┊  ┊┊┊  ┊┊┊┊┊┊┊┊ ┊┊ │ ****** │ ┊┊ ┊┊┊┊┊┊┊┊┊  ┊┊┊  ┊┊┊┊┊┊┊  │                    
+                                         ╰CGNNNKNNN╮╭SSS──NNNKNNNN─NN╮╰─NNNNNN╮╰ANN─NNNKNNNNN╮╭SSS──NNNKNNNUU╯                    
+                                                   ^╰────╮           ╰────AA──╯              ^╰────╮                              
+                                                   ╰────╮^             ╭──AA────╮            ╰────╮^              
+                                         ╭UUNNNKNNN──SSS╯╰NNNKNNNN─NNA╮╰NNNNNN─╮╰NN─NNNNNNNNN──SSS╯╰NNNKNNNGC╮                    
+                                         │  ┊┊┊┊┊┊┊  ┊┊┊  ┊┊┊┊┊┊┊┊ ┊┊ │ ****** │ ┊┊ ┊┊┊┊┊┊┊┊┊  ┊┊┊  ┊┊┊┊┊┊┊  │                    
+                                         ╰CGNNNKNNN╮╭SSS──NNNKNNNN─NN╮╰─NNNNNN╮╰ANN─NNNNNNNNN╮╭SSS──NNNKNNNUU╯                    
+                                                   ^╰────╮           ╰────AA──╯              ^╰────╮                              
+                                                   ╰────╮^             ╭──AA────╮            ╰────╮^                              
+                                         ╭UUNNNKNNN──SSS╯╰NNNKNNNN─NNA╮╰NNNNNN─╮╰NN─NNNKNNNNN──SSS╯╰NNNKNNNGC╮                    
+                                         │  ┊┊┊┊┊┊┊  ┊┊┊  ┊┊┊┊┊┊┊┊ ┊┊ │ ****** │ ┊┊ ┊┊┊┊┊┊┊┊┊  ┊┊┊  ┊┊┊┊┊┊┊  │                    
+                                         ╰CGNNNKNNN╮╭SSS──NNNKNNNN─NN╮╰─NNNNNN╮╰ANN─NNNKNNNNN╮╭SSS──NNNKNNNUU╯                    
+                                                   ^╰────╮           ╰────AA──╯              ^╰────╮                             
+                                                   ╰────╮^                                   ╰────╮^                              
+ ╭UUNNNKNNN─CUCGGGUGUGAGAUG─AG─UU─GUC──NNNKNNNNNNKN──NNN╯╰NNKNNNNKNNNN─────NNNNNKNNKNNNNNKNNN──NNN╯╰NNNNKNNNNNNGC╮          
+ │  ┊┊┊┊┊┊┊ ┊ ┊             ┊┊    ┊┊┊  ┊┊┊┊┊┊┊┊┊┊┊┊  ┊┊┊  ┊┊┊┊┊┊┊┊┊┊┊┊     ┊┊┊┊┊┊┊┊┊┊┊┊┊┊┊┊┊┊  ┊┊┊  ┊┊┊┊┊┊┊┊┊┊┊  │          
+ ╰CGNNNKNNN─GUGAG──GGUCGGG──UC────CAG──NNNKNNNNNNKN──NNN──NNKNNNNKNNNN3   5GGAANKNNKNNNNNKNNN──NNN──NNNNKNNNNNNUU╯  
+                                           

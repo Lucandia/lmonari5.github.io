@@ -1,0 +1,25 @@
+>tile_ispinach
+@AB12                                                                                                          
+             ╭──AA────╮                      ╭──AA────╮                                                     
+             ╰XXXXXX─╮╰NNNNNNNN────NNNN──NNA╮╰NNNNNN─╮╰NNN───NNNNN─────────NNNN──NNA╮         
+                     │ ┊┊┊┊┊┊┊┊    ┊┊┊┊  ┊┊ │ ****** │ ┊┊┊   ┊┊┊┊┊         ┊┊┊┊  ┊┊ │         
+                     ╰ANNNNNNNN─╮╭─NNNN──NN╮╰─NNNNNN╮╰ANNN───NNNNN─╮╭──────NNNN──NN╮╰─XXXXXX╮ 
+                                │╰─────╮   ╰────AA──╯              │╰───────╮      ╰────AA──╯ 
+                                ╰─────╮│                           ╰───────╮│                 
+                                   ╭──╯^                                 ╭─╯^                 
+                                   ^╭──╯       ╭──AA────╮                ^╭─╯                 
+                       ╭UUNNNN──SSS╯╰NNN───NNA╮╰NNNNNN─╮╰NNN─────NNN──SSS╯╰NNNNNGC╮           
+                       │  ┊┊┊┊  ┊┊┊  ┊┊┊   ┊┊ │ ****** │ ┊┊┊     ┊┊┊  ┊┊┊  ┊┊┊┊┊  │           
+                       ╰CGNNNN╮╭SSS──NNN───NN╮╰─NNNNNN╮╰ANNN─────NNN╮╭SSS──NNNNNUU╯           
+                              │╰─────╮       ╰────AA──╯             │╰─────╮                  
+                              ╰─────╮│                              ╰─────╮│                  
+                                ╭───╯^                            ╭───────╯^                  
+             ╭──AA────╮         ^╭───╯                            ^╭───────╯                  
+             ╰XXXXXX─╮╰NN─NNNNN─╯╰NNNNNKNNNNN────NNNNNKNNNNN──────╯╰─NNNN─NNA╮                
+                     │ ┊┊ ┊┊┊┊┊   ┊┊┊┊┊┊┊┊┊┊┊    ┊┊┊┊┊┊┊┊┊┊┊         ┊┊┊┊ ┊┊ │                
+                     ╰ANN─NNNNN───NNNNNKNNNNN╮  5GGAANKNNNNN─────────NNNN─NN╮╰─XXXXXX╮        
+                                             │                              ╰────AA──╯        
+                                             ^                                                
+     ╭UUNNN─CUCGGGUGUGAGAUG─AG─UU─GUC──NNNUUU╯                                                
+     │  ┊┊┊ ┊ ┊             ┊┊    ┊┊┊  ┊┊┊                                                    
+     ╰CGNNN─GUGAG──GGUCGGG──UC────CAG──CGG3                                                   

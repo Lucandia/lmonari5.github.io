@@ -1,0 +1,42 @@
+>6H_zip
+@AB21
+                                                                            ╭──AA────╮                                                 
+                                                                            ╰XXXXXX─╮╰NN─NNNKNNNNN──SSS──NNNKNNNGC─╮           
+                                                                                    │ ┊┊ ┊┊┊┊┊┊┊┊┊  ┊┊┊  ┊┊┊┊┊┊┊   │             
+                                                                                    ╰ANN─NNNKNNNNN╮╭SSS──NNNKNNNUU─╯          
+                                                                                                  ^╰────╮                                                                                                                                                                                                                  
+                                                                            ╭──AA────╮            ╰────╮^          
+                                                                            ╰XXXXXX─╮╰NN─NNNKNNNNN──SSS╯╰NNNKNNNGC─╮           
+                                                                                    │ ┊┊ ┊┊┊┊┊┊┊┊┊  ┊┊┊  ┊┊┊┊┊┊┊   │             
+                                                                                    ╰ANN─NNNKNNNNN╮╭SSS──NNNKNNNUU─╯           
+                                                                                                  ^╰────╮                                                                                                                                                                                                                    
+                                                                            ╭──AA────╮            ╰────╮^                 
+                                              ╭UUNNNKNNN──SSS──NNNKNNNN─NNA╮╰NNNNNN─╮╰NN─NNNKNNNNN──SSS╯╰NNNKNNNGC╮                    
+                                              │  ┊┊┊┊┊┊┊  ┊┊┊  ┊┊┊┊┊┊┊┊ ┊┊ │ ****** │ ┊┊ ┊┊┊┊┊┊┊┊┊  ┊┊┊  ┊┊┊┊┊┊┊  │                    
+                                              ╰CGNNNKNNN╮╭SSS──NNNKNNNN─NN╮╰─NNNNNN╮╰ANN─NNNKNNNNN╮╭SSS──NNNKNNNUU╯                    
+                                                        ^╰────╮           ╰────AA──╯              ^╰────╮                    
+                                                        ╰────╮^             ╭──AA────╮            ╰────╮^                              
+                                              ╭UUNNNKNNN──SSS╯╰NNNKNNNN─NNA╮╰NNNNNN─╮╰NN─NNNKNNNNN──SSS╯╰NNNKNNNGC╮                    
+                                              │  ┊┊┊┊┊┊┊  ┊┊┊  ┊┊┊┊┊┊┊┊ ┊┊ │ ****** │ ┊┊ ┊┊┊┊┊┊┊┊┊  ┊┊┊  ┊┊┊┊┊┊┊  │                    
+                                              ╰CGNNNKNNN╮╭SSS──NNNKNNNN─NN╮╰─NNNNNN╮╰ANN─NNNKNNNNN╮╭SSS──NNNKNNNUU╯                    
+                                                        ^╰────╮           ╰────AA──╯              ^╰────╮              
+                                                        ╰────╮^             ╭──AA────╮            ╰────╮^                                          
+                                              ╭UUNNNKNNN──SSS╯╰NNNKNNNN─NNA╮╰NNNNNN─╮╰NN─NNNKNNNNN──SSS╯╰NNNKNNNGC╮                    
+                                              │  ┊┊┊┊┊┊┊  ┊┊┊  ┊┊┊┊┊┊┊┊ ┊┊ │ ****** │ ┊┊ ┊┊┊┊┊┊┊┊┊  ┊┊┊  ┊┊┊┊┊┊┊  │                    
+                                              ╰CGNNNKNNN╮╭SSS──NNNKNNNN─NN╮╰─NNNNNN╮╰ANN─NNNKNNNNN╮╭SSS──NNNKNNNUU╯                    
+                                                        ^╰────╮           ╰────AA──╯              ^╰────╮                                   
+                                                        ╰────╮^                                   ╰────╮^                              
+      ╭UUNNNKNNN─CUCGGGUGUGAGAUG─AG─UU─GUC──NNNKNNNNNNKN──SSS╯╰NNKNNNNKNNNN─────NNNNNKNNKNNNNNKNNN──NNN╯╰NNNNKNNNNNNGC╮          
+      │  ┊┊┊┊┊┊┊ ┊ ┊             ┊┊    ┊┊┊  ┊┊┊┊┊┊┊┊┊┊┊┊  ┊┊┊  ┊┊┊┊┊┊┊┊┊┊┊┊     ┊┊┊┊┊┊┊┊┊┊┊┊┊┊┊┊┊┊  ┊┊┊  ┊┊┊┊┊┊┊┊┊┊┊  │          
+      ╰CGNNNKNNN─GUGAG──GGUCGGG──UC────CAG──NNNKNNNNNNKN╮╭SSS──NNKNNNNKNNNN3   5GGAANKNNKNNNNNKNNN──NNN──NNNNKNNNNNNUU╯  
+                                                        ^╰────╮     
+                                                        ╰────╮^                                                                                                            
+                                              ╭UUNNNKNNN──SSS╯╰NNNKNNNN─NNA╮                                                
+                                              │  ┊┊┊┊┊┊┊  ┊┊┊  ┊┊┊┊┊┊┊┊ ┊┊ │                                                           
+                                              ╰CGNNNKNNN╮╭SSS──NNNKNNNN─NN╮╰─XXXXXX╮                                                                                                                  
+                                                        ^╰────╮           ╰────AA──╯                                                                       
+                                                        ╰────╮^                                                                                                            
+                                              ╭UUNNNKNNN──SSS╯╰NNNKNNNN─NNA╮                                                
+                                              │  ┊┊┊┊┊┊┊  ┊┊┊  ┊┊┊┊┊┊┊┊ ┊┊ │                                                           
+                                              ╰CGNNNKNNN──SSS──NNNKNNNN─NN╮╰─XXXXXX╮                                                
+                                                                          ╰────AA──╯  

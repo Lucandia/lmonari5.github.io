@@ -1,0 +1,21 @@
+>tile
+@AB12                                                                                                          
+             ╭──AA────╮                      ╭──AA────╮                                                     
+             ╰XXXXXX─╮╰NNNNNNNN────NNNN──NNA╮╰NNNNNN─╮╰NNN───NNNNN─────────NNNN──NNA╮         
+                     │ ┊┊┊┊┊┊┊┊    ┊┊┊┊  ┊┊ │ ****** │ ┊┊┊   ┊┊┊┊┊         ┊┊┊┊  ┊┊ │         
+                     ╰ANNNNNNNN─╮╭─NNNN──NN╮╰─NNNNNN╮╰ANNN───NNNNN─╮╭──────NNNN──NN╮╰─XXXXXX╮ 
+                                │╰─────╮   ╰────AA──╯              │╰───────╮      ╰────AA──╯ 
+                                ╰─────╮│                           ╰───────╮│                 
+                                   ╭──╯^                                 ╭─╯^                 
+                                   ^╭──╯       ╭──AA────╮                ^╭─╯                 
+                       ╭UUNNNN──SSS╯╰NNN───NNA╮╰NNNNNN─╮╰NNN─────NNN──SSS╯╰NNNNNGC╮           
+                       │  ┊┊┊┊  ┊┊┊  ┊┊┊   ┊┊ │ ****** │ ┊┊┊     ┊┊┊  ┊┊┊  ┊┊┊┊┊  │           
+                       ╰CGNNNN╮╭SSS──NNN───NN╮╰─NNNNNN╮╰ANNN─────NNN╮╭SSS──NNNNNUU╯           
+                              │╰─────╮       ╰────AA──╯             │╰─────╮                  
+                              ╰─────╮│                              ╰─────╮│                  
+                                ╭───╯^                            ╭───────╯^                  
+             ╭──AA────╮         ^╭───╯                            ^╭───────╯                  
+             ╰XXXXXX─╮╰NN─NNNNN─╯╰NNNNNKNNNNN────NNNNNKNNNNN──────╯╰─NNNN─NNA╮                
+                     │ ┊┊ ┊┊┊┊┊   ┊┊┊┊┊┊┊┊┊┊┊    ┊┊┊┊┊┊┊┊┊┊┊         ┊┊┊┊ ┊┊ │                
+                     ╰ANN─NNNNN───NNNNNKNNNNN3  5GGAANKNNNNN─────────NNNN─NN╮╰─XXXXXX╮        
+                                                                            ╰────AA──╯        
