@@ -6,45 +6,71 @@
 <script type="text/javascript">
 $(function(){
     $('#button1').click(function(){ 
+      if(!$('#oxview-frame-1').length) {
         $('#iframeHolder1').html('<iframe width="80%" height="500" src="https://sulcgroup.github.io/oxdna-viewer/" id="oxview-frame-1" onload="handle1()"></iframe>');
+    } else{ $('#iframeHolder1').html('') }
     });  
     $('#button2').click(function(){ 
+      if(!$('#oxview-frame-2').length) {
         $('#iframeHolder2').html('<iframe width="80%" height="500" src="https://sulcgroup.github.io/oxdna-viewer/" id="oxview-frame-2" onload="handle2()"></iframe>');
+      } else{ $('#iframeHolder2').html('') }
     });  
-    $('#button3').click(function(){ 
+    $('#button3').click(function(){
+      if(!$('#oxview-frame-3').length) {
         $('#iframeHolder3').html('<iframe width="80%" height="500" src="https://sulcgroup.github.io/oxdna-viewer/" id="oxview-frame-3" onload="handle3()"></iframe>');
-    });
+      } else{ $('#iframeHolder3').html('') }
+    }); 
     $('#button4').click(function(){ 
+      if(!$('#oxview-frame-4').length) {
         $('#iframeHolder4').html('<iframe width="80%" height="500" src="https://sulcgroup.github.io/oxdna-viewer/" id="oxview-frame-4" onload="handle4()"></iframe>');  
-    });  
+      } else{ $('#iframeHolder4').html('') }
+    });   
     $('#button5').click(function(){ 
+      if(!$('#oxview-frame-5').length) {
         $('#iframeHolder5').html('<iframe width="80%" height="500" src="https://sulcgroup.github.io/oxdna-viewer/" id="oxview-frame-5" onload="handle5()"></iframe>');
+      } else{ $('#iframeHolder5').html('') }
     });  
     $('#button6').click(function(){ 
+      if(!$('#oxview-frame-6').length) {
         $('#iframeHolder6').html('<iframe width="80%" height="500" src="https://sulcgroup.github.io/oxdna-viewer/" id="oxview-frame-6" onload="handle6()"></iframe>');
+      } else{ $('#iframeHolder6').html('') }
     });  
     $('#button7').click(function(){ 
+      if(!$('#oxview-frame-7').length) {
         $('#iframeHolder7').html('<iframe width="80%" height="500" src="https://sulcgroup.github.io/oxdna-viewer/" id="oxview-frame-7" onload="handle7()"></iframe>');
-    });
+      } else{ $('#iframeHolder7').html('') }
+    }); 
     $('#button8').click(function(){ 
+      if(!$('#oxview-frame-8').length) {
         $('#iframeHolder8').html('<iframe width="80%" height="500" src="https://sulcgroup.github.io/oxdna-viewer/" id="oxview-frame-8" onload="handle8()"></iframe>');  
-    });  
+      } else{ $('#iframeHolder8').html('') }
+    }); 
     $('#button9').click(function(){ 
+      if(!$('#oxview-frame-9').length) {
         $('#iframeHolder9').html('<iframe width="80%" height="500" src="https://sulcgroup.github.io/oxdna-viewer/" id="oxview-frame-9" onload="handle9()"></iframe>');
+      } else{ $('#iframeHolder9').html('') }
     });  
     $('#button10').click(function(){ 
+      if(!$('#oxview-frame-10').length) {
         $('#iframeHolder10').html('<iframe width="80%" height="500" src="https://sulcgroup.github.io/oxdna-viewer/" id="oxview-frame-10" onload="handle10()"></iframe>');
-    });  
+      } else{ $('#iframeHolder10').html('') }
+    }); 
     $('#button11').click(function(){ 
+      if(!$('#oxview-frame-11').length) {
         $('#iframeHolder11').html('<iframe width="80%" height="500" src="https://sulcgroup.github.io/oxdna-viewer/" id="oxview-frame-11" onload="handle11()"></iframe>');
-    });
+      } else{ $('#iframeHolder11').html('') }
+    }); 
 });
 
 </script>
 
 <body>
 <h1>Luca Monari's report supporting info</h1>
- 
+
+<p>Render the RNA origami structures with OxView. Use the left click to rotate and the right click to move in the frame.
+  You can render up to 8 RNA origami at the same time.
+</p>
+
 <h2>Tiles project</h2>
  
 <p>Base tile</p>
@@ -68,7 +94,7 @@ $(function(){
    frame.contentWindow.postMessage({message : 'iframe_drop',files: t_blobs, ext: t_ext, inbox_settings : inbox_settings}, "https://sulcgroup.github.io/oxdna-viewer/"); 
   } 
  </script> 
-<button id="button1">Render</button>
+<button id="button1">Render/Hide</button>
 <div id="iframeHolder1"></div>
  
  <p>Base tile with ispinach</p>
@@ -92,7 +118,7 @@ $(function(){
    frame.contentWindow.postMessage({message : 'iframe_drop',files: t_blobs, ext: t_ext, inbox_settings : inbox_settings}, "https://sulcgroup.github.io/oxdna-viewer/"); 
   } 
  </script> 
-<button id="button2">Render</button>
+<button id="button2">Render/Hide</button>
 <div id="iframeHolder2"></div>
  
 <p>20 tiles filament relaxation</p>
@@ -116,7 +142,7 @@ $(function(){
    frame.contentWindow.postMessage({message : 'iframe_drop',files: t_blobs, ext: t_ext, inbox_settings : inbox_settings}, "https://sulcgroup.github.io/oxdna-viewer/"); 
   } 
  </script> 
-<button id="button3">Render</button>
+<button id="button3">Render/Hide</button>
 <div id="iframeHolder3"></div>
 
  
@@ -144,7 +170,7 @@ $(function(){
    frame.contentWindow.postMessage({message : 'iframe_drop',files: t_blobs, ext: t_ext, inbox_settings : inbox_settings}, "https://sulcgroup.github.io/oxdna-viewer/"); 
   } 
  </script> 
-<button id="button4">Render</button>
+<button id="button4">Render/Hide</button>
 <div id="iframeHolder4"></div>
  
 <p>6H zip nanotube with Ispinach</p>
@@ -168,7 +194,7 @@ $(function(){
    frame.contentWindow.postMessage({message : 'iframe_drop',files: t_blobs, ext: t_ext, inbox_settings : inbox_settings}, "https://sulcgroup.github.io/oxdna-viewer/"); 
   } 
  </script> 
-<button id="button5">Render</button>
+<button id="button5">Render/Hide</button>
 <div id="iframeHolder5"></div>
  
 <p>8H nanotube</p>
@@ -192,7 +218,7 @@ $(function(){
    frame.contentWindow.postMessage({message : 'iframe_drop',files: t_blobs, ext: t_ext, inbox_settings : inbox_settings}, "https://sulcgroup.github.io/oxdna-viewer/"); 
   } 
  </script> 
-<button id="button6">Render</button>
+<button id="button6">Render/Hide</button>
 <div id="iframeHolder6"></div>
  
 <p>8H nanotube after OxDNA relaxation</p>
@@ -216,7 +242,7 @@ $(function(){
    frame.contentWindow.postMessage({message : 'iframe_drop',files: t_blobs, ext: t_ext, inbox_settings : inbox_settings}, "https://sulcgroup.github.io/oxdna-viewer/"); 
   } 
  </script> 
-<button id="button7">Render</button>
+<button id="button7">Render/Hide</button>
 <div id="iframeHolder7"></div>
  
  <p>8H zip nanotube</p>
@@ -240,7 +266,7 @@ $(function(){
    frame.contentWindow.postMessage({message : 'iframe_drop',files: t_blobs, ext: t_ext, inbox_settings : inbox_settings}, "https://sulcgroup.github.io/oxdna-viewer/"); 
   } 
  </script> 
-<button id="button8">Render</button>
+<button id="button8">Render/Hide</button>
 <div id="iframeHolder8"></div>
  
 <p>8H zip nanotube after OxDNA relaxation</p>
@@ -264,7 +290,7 @@ $(function(){
    frame.contentWindow.postMessage({message : 'iframe_drop',files: t_blobs, ext: t_ext, inbox_settings : inbox_settings}, "https://sulcgroup.github.io/oxdna-viewer/"); 
   } 
  </script> 
-<button id="button9">Render</button>
+<button id="button9">Render/Hide</button>
 <div id="iframeHolder9"></div>
  
  <p>8H zip nanotube with Kissing Loops for RNA9</p>
@@ -288,7 +314,7 @@ $(function(){
    frame.contentWindow.postMessage({message : 'iframe_drop',files: t_blobs, ext: t_ext, inbox_settings : inbox_settings}, "https://sulcgroup.github.io/oxdna-viewer/"); 
   } 
  </script> 
-<button id="button10">Render</button>
+<button id="button10">Render/Hide</button>
 <div id="iframeHolder10"></div>
  
 <p>8H zip nanotube with Kissing Loops for RNA9 after OxDNA relaxation</p>
@@ -312,7 +338,7 @@ $(function(){
    frame.contentWindow.postMessage({message : 'iframe_drop',files: t_blobs, ext: t_ext, inbox_settings : inbox_settings}, "https://sulcgroup.github.io/oxdna-viewer/"); 
   } 
  </script> 
-<button id="button11">Render</button>
+<button id="button11">Render/Hide</button>
 <div id="iframeHolder11"></div>
  
  </body>
